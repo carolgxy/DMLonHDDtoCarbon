@@ -9,5 +9,5 @@ The code was executed on Google Colab, primarily based on the DoubleML library (
 For detailed documentation on the DoubleML package, please refer to the official guide: https://docs.doubleml.org/stable/index.html.
 
 ## Data
-The provided dataset contains all variables required to run the HDD_dml_py.ipynb notebook and reproduce the analysis results.
+The full dataset for the six regions covered by our study is too large to be upload, so we provide the sample dataset of Russia here. It contains all variables required to run the HDD_dml_py.ipynb and reproduce the analysis results for Russia.
 Comprehensive details on data sources, preprocessing, and variable construction are available in our manuscript.
