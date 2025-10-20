@@ -9,5 +9,10 @@ The code was executed on Google Colab, primarily based on the DoubleML library (
 For detailed documentation on the DoubleML package, please refer to the official guide: https://docs.doubleml.org/stable/index.html.
 
 ## Data
-The full dataset for the six regions covered by our study is too large to be upload, so we provide the sample dataset of Russia here. It contains all variables required to run the HDD_dml_py.ipynb and reproduce the analysis results for Russia.
+The full dataset for the six regions covered by our study is too large to be uploaded, so we provide the sample dataset of Russia here. It contains all variables required to run the HDD_dml_py.ipynb and reproduce the analysis results for Russia.
 Comprehensive details on data sources, preprocessing, and variable construction are available in our manuscript.
+
+## Reproducibility Notice
+Machine learning models inherently involve random components (e.g., parameter initialization, sampling, or data splitting).
+To ensure the robustness of our results, the code is configured to run five independent iterations of the DML estimation and report the averaged results.
+However, please note that minor variations may still occur across runs due to the stochastic nature of the algorithms, even with fixed random seeds.
