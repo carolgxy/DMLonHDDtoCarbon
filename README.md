@@ -1,6 +1,6 @@
 # DML on HDD to Carbon
 
-## Intro
+## Introduction
 Increasing climatic volatility has intensified the frequency and persistence of cold extremes, driving higher heating demand and carbon emissions from the building sector. However, the socioeconomic and infrastructural mechanisms shaping the relationship between winter thermal stress and emissions remain insufficiently quantified.
 In this study, we employ a Double Machine Learning (DML) framework to estimate the causal association between Heating Degree Days (HDD) and CO₂ emissions across six major emitting regions, while controlling for a range of socioeconomic, technological, and geographic confounders. The complete implementation of the DML framework is provided in the notebook HDD_dml_py.ipynb.
 
